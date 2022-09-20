@@ -1,0 +1,32 @@
+.profile-image{
+    width: 10%;
+    position: absolute;
+    border-radius: 100%;
+    box-shadow: 3px;
+    bottom: 140px;
+}
+
+#info-img{
+    display: inline-block;
+}
+
+#info-data{
+    display: inline-block;
+}
+
+#info-titulo{
+    font-weight: bold;
+}
+
+#sobre-mi{
+    display: inline-block;
+}
+
+#sobre-mi h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#sobre-mi p{
+    font-size: 20px;
+}

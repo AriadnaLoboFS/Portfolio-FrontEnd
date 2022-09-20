@@ -1,0 +1,30 @@
+.header{
+    background-color: black;
+}
+
+.logoheader img {
+    float: left;
+    width: 90px;
+}
+
+.logoheader h1{
+    font-size: 20px;
+    color: #ffff;
+    padding: 25px;
+    display: inline;
+}
+
+.logoheader{
+    padding-bottom: 25px;
+}
+
+#linkedin{
+    width: 40px;
+    float: right;
+    display: inline;
+}
+
+#github{
+    width: 40px;
+    float: right;
+}
