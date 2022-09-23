@@ -1,30 +1,36 @@
 .header{
-    background-color: black;
+    background-color:   #0c0c16;
+    padding-top: 10px;
 }
 
 .logoheader img {
     float: left;
     width: 90px;
+    background-color:  #0c0c16;
 }
 
 .logoheader h1{
-    font-size: 20px;
+    font-size: 25px;
     color: #ffff;
-    padding: 25px;
-    display: inline;
+    display:inline;
+    padding-left: 10px;
+    background-color:   #0c0c16;
 }
 
 .logoheader{
-    padding-bottom: 25px;
+    padding-bottom: 10px;
+    background-color:  #0c0c16;
 }
 
 #linkedin{
     width: 40px;
     float: right;
     display: inline;
+    background-color:  #0c0c16;
 }
 
 #github{
     width: 40px;
     float: right;
+    background-color:  #0c0c16;
 }
