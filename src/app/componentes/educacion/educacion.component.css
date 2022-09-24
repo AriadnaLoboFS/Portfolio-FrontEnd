@@ -1,0 +1,35 @@
+#titulosec{
+    font-size: 40px;
+    font-weight: bold;
+    color: #a91f4f;
+    padding-bottom: 10px;
+}
+
+#space{
+    padding: 7px;
+}
+
+#educacion{
+    padding-top:30px ;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+    border: 5px inset #8a72d0;
+}
+
+#Nivel{
+    color: #8a72d0;
+    padding-top: 10px;
+}
+
+#Institucion{
+    color: #c994bc;
+}
+
+#Periodo{
+    color: #d9d6d5;
+}
+
+.educacion-block{
+    padding-bottom: 25px;
+}

@@ -1,4 +1,23 @@
+#skills{
+    background-color:  #0c0c16;
+    padding-left: 15px;
+    
+}
+
 .row{
-    background-color: rgb(255, 255, 255);
-    padding: 16px;
+    padding-top:30px ;
+    padding-bottom: 30px;
+    border-radius: 25px;
+    border: 5px inset #8a72d0;
+}
+
+#space{
+    padding: 7px;
+}
+
+#titulosec{
+    font-size: 40px;
+    font-weight: bold;
+    color: #a91f4f;
+    padding-bottom: 10px;
 }

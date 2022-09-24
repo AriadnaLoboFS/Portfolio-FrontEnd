@@ -2,8 +2,9 @@
     width: 10%;
     position: absolute;
     border-radius: 100%;
-    box-shadow: 3px;
-    bottom: 140px;
+    box-shadow: 3px 5px #d9d6d5;
+    bottom: 50px;
+    left: 290px;
 }
 
 #info-img{
@@ -12,23 +13,22 @@
 
 #info-data{
     display: inline-block;
-    color: #d9d6d5;
+    color:  #ada0dc ;
 }
 
 #info-titulo{
     font-weight: bold;
-    color: #d9d6d5
+    color: #8a72d0
 }
 
 #sobre-mi{
     display: inline-block;
-    color: #d9d6d5
 }
 
 #sobre-mi h1{
     font-size: 30px;
     font-weight: bold;
-    color: #d9d6d5
+    color: #a91f4f
 }
 
 #sobre-mi p{
@@ -43,6 +43,13 @@
 #info{
     border-radius: 25px;
     border: 5px inset #8a72d0;
-    padding: 5px;
+    padding: 10px;
 }
 
+#cv{
+  color: #a27387;  
+}
+
+#cv:hover{
+    color: #c994bc
+}

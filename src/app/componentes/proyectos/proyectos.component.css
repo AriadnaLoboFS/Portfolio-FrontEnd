@@ -1,6 +1,17 @@
+#space{
+    padding: 7px;
+}
+
 .row{
-    background-color: bisque;
-    padding: 16px;
+    background-color: #0c0c16;
+    padding-top:30px ;
+    padding-bottom: 30px;
+    border-radius: 25px;
+    border: 5px inset #8a72d0;
+}
+
+#proyectos{
+    padding-left: 15px;
 }
 
 .container{
@@ -10,4 +21,27 @@
 .parte1, .parte2{
     display: inline-block;
     text-align: justify;
+}
+
+#titulosec{
+    font-size: 40px;
+    font-weight: bold;
+    color: #a91f4f;
+    padding-bottom: 10px;
+}
+
+#Nombreproy{
+    color: #c994bc
+}
+
+#Descriproy{
+    color: #d9d6d5;
+}
+
+#Proyecto2{
+    padding-top: 20px;
+}
+
+#img{
+    box-shadow: 3px 5px #d9d6d5;
 }

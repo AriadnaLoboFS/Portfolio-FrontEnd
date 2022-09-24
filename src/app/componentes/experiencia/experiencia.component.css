@@ -1,0 +1,38 @@
+#experiencia{
+    padding-top:30px ;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+    border: 5px inset #8a72d0;
+}
+
+#block{
+    background-color:#0c0c16;
+}
+
+#space{
+    padding: 7px;
+}
+
+#titulosec{
+    font-size: 40px;
+    font-weight: bold;
+    color: #a91f4f
+}
+
+#Puesto{
+    color: #8a72d0;
+    padding-top: 10px;
+}
+
+#Local{
+    color: #ada0dc ;
+}
+
+#Periodo{
+    color: #c994bc;
+}
+
+#Tareas{
+    color: #d9d6d5;
+}

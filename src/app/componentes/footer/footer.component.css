@@ -1,0 +1,16 @@
+#space{
+    padding: 7px;
+}
+
+.row{
+    background-color: #0c0c16;
+}
+
+footer{
+    color: #ada0dc;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 3px 5px #d9d6d5;
+}
