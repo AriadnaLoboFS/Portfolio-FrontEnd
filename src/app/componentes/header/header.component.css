@@ -34,3 +34,8 @@
     float: right;
     background-color:  #0c0c16;
 }
+
+#boton{
+    display: inline;    
+    float: right;
+}
