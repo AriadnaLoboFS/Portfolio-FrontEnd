@@ -14,6 +14,7 @@
         "componentes",
         "compra",
         "Compras",
+        "Contraseña",
         "Creatividad",
         "Descriproy",
         "devkit",
@@ -82,6 +83,7 @@
         "traer",
         "Tucumán",
         "Universidad",
-        "UNIVERSITARIO"
+        "UNIVERSITARIO",
+        "Usuario"
     ]
 }
