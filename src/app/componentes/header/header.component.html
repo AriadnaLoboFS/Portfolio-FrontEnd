@@ -5,7 +5,8 @@
         <h1> Argentina Programa - #Yo Programo. </h1>
         <a href="https://github.com/AriadnaLoboFS" target="_blank"><img src="../../../assets/Imagenes/Logo git.png" id="github"></a>        
         <a href="https://www.linkedin.com/in/ariadna-lobo-figueroa-suarez-aa2834181/" target="_blank"><img src="../../../assets/Imagenes/Logo linkedin.png" id="linkedin"></a>
-        <button type="button" class="btn btn-outline-light" id="boton" (click)="login()"> Ingresar </button>
+        <button type="button" class="btn btn-outline-light" id="boton" (click)="login()" *ngIf="!isLogged"> Ingresar </button>
+        <button type="button" class="btn btn-outline-light" id="boton" (click)="onLogOut()" *ngIf="isLogged"> Cerrar Sesion </button>
     </div>
     
 </div> 
