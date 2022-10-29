@@ -3,16 +3,23 @@
     <div id="educacion">
         <h2 style="text-align:center" id="titulosec">Educacion</h2>
 
-        <div class="educacion-block">
-            <h3 id="Nivel">UNIVERSITARIO COMPLETO – CARRERA LICENCIATURA EN ADMINISTRACIÓN.</h3>
-            <h4 id="Institucion">Facultad de Ciencias Económicas. Universidad Nacional de Tucumán.</h4>
-            <span id="Periodo">Feb 2021 - Dic 2020</span>
+        <div>
+            <button type="button" class="btn btn-outline-light" routerLink="/nuevaedu" *ngIf="isLogged">
+                Agregar Educacion
+            </button>
         </div>
 
-        <div class="educacion-block">
-            <h3 id="Nivel">PRIMARIO Y SECUNDARIO</h3>
-            <h4 id="Institucion">Instituto Privado San Javier. Modalidad Economía y Gestión de las Organizaciones.</h4>
-            <span id="Periodo">Egreso 2014</span>
-        </div>
+        <table class="table">
+            <tbody>
+                <tr id="subtitulos" *ngFor="let Educacion of educacion">
+                    <td>{{Educacion.nombreE}}</td>
+                    <td>{{Educacion.descripcionE}}</td>
+                    <td *ngIf="isLogged"><button type="button" class="btn btn-outline-light" routerLink="/editedu/{{Educacion.id}}"> <i
+                                class="bi bi-pencil-square"></i>Editar </button> </td>
+                    <td *ngIf="isLogged"><button type="button" class="btn btn-outline-light" (click)="delete(Educacion .id)"> <i class="bi bi-trash3"></i>Borrar</button> </td>
+                </tr>
+            </tbody>
+        </table>
+
     </div>
 </div>

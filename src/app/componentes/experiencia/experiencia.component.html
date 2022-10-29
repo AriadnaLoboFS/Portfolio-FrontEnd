@@ -1,71 +1,26 @@
 <div class="block">
     <div id="space"></div>
-    <div id="experiencia" >
+    <div id="experiencia">
         <h1 style="text-align:center" id="titulosec">Experiencia Laboral</h1>
 
-        <div id="Exp1">
-            <h2 id="Puesto">Encargada administrativa</h2>
-            <h4 id="Periodo"> Junio 2022 - Actualidad </h4>
-            <div id="Tareas">
-                <ul>
-                <li>Mantenimiento de la plataforma Pedidos Ya.</li>
-                <li>Pago de sueldo mensual/semanal a empleados.</li>
-                <li>Pago a proveedores, carga de ordenes de compra y facturas.</li>
-                <li>Control y supervisión de cajas diarias.</li>
-                <li>Rol proactivo para mejorar los procesos internos de la empresa.</li>           
-                </ul>
-            </div>
+        <div>
+            <button type="button" class="btn btn-outline-light" routerLink="/nuevaexp" *ngIf="isLogged">
+                Nueva Experiencia
+            </button>
         </div>
 
-        <div id="Exp2">
-            <h2 id="Puesto">Auxiliar Administrativo Contable</h2>
-            <h3 id="Local">Departamento Recaudación - Dirección Rentas Yerba Buena</h3>
-            <h4 id="Periodo"> Febrero 2021 - Actualidad </h4>
-            <div id="Tareas">
-                <ul>
-                <li>Atención al público presencial y vía mails en resolución de consultas.</li>
-                <li>Asesoramiento y resolución de consultas por parte de los sectores de Recaudación (CISI-Contribuciones Varias-Residuos-Comercio).</li>
-                <li>Automatización en la gestión de mails de Rentas Yerba Buena.</li>
-                <li>Actualización constante de la base de datos de grandes contribuyentes en cuanto al seguimiento de su situación tributaria.</li>
-                <li>Capacitación a pasantes del Departamento Fiscalización y Recaudación.</li>
-                <li>Elaboración de manuales y guías para el Departamento Recaudación.</li>
-                <li>Confección de intimaciones a contribuyentes morosos.</li>
-                <li>Liquidación y procesamiento de transferencias bancarias ante el cobro de impuestos.</li>             
-                </ul>
-            </div>
-        </div>
+        <table class="table">
+            <tbody>
+                <tr id="subtitulos" *ngFor="let Experiencia of expe">
+                    <td>{{Experiencia.nombreE}}</td>
+                    <td>{{Experiencia.descripcionE}}</td>
+                    <td *ngIf="isLogged"><button type="button" class="btn btn-outline-light" routerLink="/editexp/{{Experiencia.id}}"> <i
+                                class="bi bi-pencil-square"></i>Editar </button> </td>
+                    <td *ngIf="isLogged"><button type="button" class="btn btn-outline-light" (click)="delete(Experiencia.id)"> <i class="bi bi-trash3"></i>Borrar</button> </td>
+                </tr>
+            </tbody>
+        </table>
 
-        <div id="Exp3">
-            <h2 id="Puesto">Pasante administrativo</h2>
-            <h3 id="Local">Departamento Fiscalización - Dirección Rentas Yerba Buena</h3>
-            <h4 id="Periodo"> Agosto 2019 - Enero 2021</h4>
-            <div id="Tareas">
-                <ul>
-                <li>Control de documentación (DDJJ IIBB, AFIP, Habilitaciones, Resoluciones) para la resolución de expedientes.</li>
-                <li>Atención al público presencial y vía mail en resolución de consultas.</li>
-                <li>Aplicación de controles en la detección de contribuyentes que incumplen la normativa tributaria municipal.</li>
-                <li>Confección de los distintos tipos de intimaciones y su respectivo seguimiento.</li>
-                <li>Armado de Cargos Tributarios para derivar a Asuntos Jurídicos.</li>
-                <li>Elaboración de Manuales de Procedimientos y Funciones para el Departamento.</li>
-                </ul>
-            </div>
-        </div>
-
-        <div id="Exp4">
-            <h2 id="Puesto">Emprendedora</h2>
-            <h3 id="Local">Tienda Online SHIN accesorios</h3>
-            <h4 id="Periodo"> Marzo 2019 - Actualidad</h4>
-            <div id="Tareas">
-                Emprendimiento de accesorios alternativos y personalizados
-                <ul>
-                <li>Compras materiales y productos revender</li>
-                <li>Manejo de Redes Sociales (Instagram y Facebook)</li>
-                <li>Producción accesorios handmade</li>
-                <li>Ventas online y en ferias</li>
-                </ul>
-
-            </div>
-        </div>
-    </div>    
+    </div>
 
 </div>

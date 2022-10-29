@@ -21,3 +21,9 @@
     color: #a91f4f;
     padding-bottom: 10px;
 }
+
+*circulo{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
