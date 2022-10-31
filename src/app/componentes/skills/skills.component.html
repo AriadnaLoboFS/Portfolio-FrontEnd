@@ -6,7 +6,7 @@
 
         <div class="col-lg-2">
             <button type="button" routerLink="/newskill" class="btn btn-outline-light" *ngIf="isLogged">
-                Nueva Skill
+                Agregar Skill
             </button>
         </div>
         
@@ -16,7 +16,7 @@
                 [titleColor]="'#d9d6d5'"
                 [unitsColor]="'#d9d6d5'"
                 [radius]="100"
-                [outerStrokeGradient]="true"
+                [outerStrokeGradient]="true" 
                 [showSubtitle]=true
                 [subtitle]="(skill.nombre)"
                 [outerStrokeWidth]="10"
@@ -27,11 +27,11 @@
                 [innerStrokeColor]="'#BB99BF'"
                 [subtitleColor]="'#8a72d0'"
                 [animation]="true"
-                [animationDuration]="300"
-                [titleFontSize]="'40'"
-                [unitsFontSize]="'40'"
+                [animationDuration]="600"
+                [titleFontSize]="'30'"
+                [unitsFontSize]="'30'"
                 [subtitleFontSize]="'30'"
-                [titleFontWeight]="'15'"
+                [titleFontWeight]="'30'"
             ></circle-progress>
 
             <td *ngIf="isLogged">

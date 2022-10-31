@@ -18,26 +18,17 @@
     font-size: 40px;
     font-weight: bold;
     color: #a91f4f
-}
+} 
 
-#Puesto{
-    color: #8a72d0;
-    padding-top: 10px;
-}
-
-#Local{
-    color: #ada0dc ;
-}
-
-#Periodo{
+#puesto{
     color: #c994bc;
-}
-
-#Tareas{
-    color: #d9d6d5;
-}
-
-#subtitulos{
+    padding-top: 10px;
     font-size: 20px;
-    color: #ada0dc;
 }
+
+
+#tareas{
+    color: #d9d6d5;
+    font-size: 20px;
+}
+

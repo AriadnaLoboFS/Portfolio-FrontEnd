@@ -4,9 +4,8 @@
             <br>
 
             <form (ngSubmit)="onCreate()" novalidate #f="ngForm">
-
                 <div class="form-group">
-                    <label id="titulocampo" for="nombre"> Nueva Skill</label>
+                    <label id="titulocampo" for="nombre"> Nombre del proyecto</label>
                     <br>
                     <input type="text" class="form-control" id="nombre" name="nombre" [(ngModel)]="nombre" required>
                 </div>
@@ -14,14 +13,14 @@
                 <br>
 
                 <div class="form-group">
-                    <label id="titulocampo" for="porcentaje"> Porcentaje </label>
+                    <label id="titulocampo" for="descripcion"> Descripcion del proyecto </label>
                     <br>
-                    <input type="text" class="form-control" id="porcentaje" name="porcentaje" [(ngModel)]="porcentaje" required>
+                    <input type="text" class="form-control" id="descripcion" name="descripcion" [(ngModel)]="descripcion" required>
                 </div>
 
                 <br>
 
-                <button class="btn btn-outline-light boton"> Agregar Skill</button>
+                <button class="btn btn-outline-light boton"> Agregar Proyecto</button>
 
             </form>
         </div>

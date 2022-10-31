@@ -30,18 +30,20 @@
     padding-bottom: 10px;
 }
 
-#Nombreproy{
-    color: #c994bc
+#subtitulos{
+    color: #8a72d0;
+    font-size: 20px;
 }
 
-#Descriproy{
+#texto{
     color: #d9d6d5;
+    font-size: 20px;
 }
 
-#Proyecto2{
-    padding-top: 20px;
-}
+
 
 #img{
     box-shadow: 3px 5px #d9d6d5;
+    width: 85%;
+    
 }

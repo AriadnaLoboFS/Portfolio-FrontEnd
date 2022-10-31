@@ -21,14 +21,21 @@
     color: #8a72d0;
 }
 
+#info-contacto{
+    
+    color: #c994bc;
+}
+
 #sobre-mi{
     display: inline-block;
+    
 }
 
 #sobre-mi h1{
     font-size: 30px;
     font-weight: bold;
-    color: #a91f4f
+    color: #a91f4f;
+    
 }
 
 #sobre-mi p{
@@ -46,10 +53,7 @@
     padding: 10px;
 }
 
-#cv{
-  color: #a27387;  
+#boton{
+    margin-left: 500px;
 }
 
-#cv:hover{
-    color: #c994bc
-}

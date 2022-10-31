@@ -3,6 +3,8 @@ export class persona{
     nombre: string;
     apellido: string;
     descripcion: string;
+    titulo: string;
+    provincia: string;
     img: string;
 
     constructor(nombre: string,apellido: string,descripcion: string,img: string){

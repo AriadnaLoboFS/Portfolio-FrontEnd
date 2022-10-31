@@ -1,37 +1,59 @@
-<div class="container" *ngIf="persona">
+<div class="container" *ngIf="persona" style="background-color:#0c0c16;">
     <div class="row">
         <div>
             <form (ngSubmit)="onUpdate()" novalidate #f="ngForm">
 
+                <br>
+
                 <div class="form-group">
-                    <label for="nombre"> Nombre</label>
+                    <label id="titulocampo" for="nombre"> Nombre</label>
+                    <br>
                     <input type="text" class="form-control" id="nombre" name="nombre" [(ngModel)]="persona.nombre" required>
                 </div>
                 
                 <br>
 
                 <div class="form-group">
-                    <label for="apellido"> Apellido</label>
+                    <label id="titulocampo" for="apellido"> Apellido</label>
+                    <br>
                     <input type="text" class="form-control" id="apellido" name="apellido" [(ngModel)]="persona.apellido" required>
                 </div>
                 
                 <br>
 
                 <div class="form-group">
-                    <label for="descripcion"> Descripcion sobre mi</label>
+                    <label id="titulocampo" for="descripcion"> Descripcion sobre mi</label>
+                    <br>
                     <input type="text" class="form-control" id="descripcion" name="descripcion" [(ngModel)]="persona.descripcion" required>
                 </div>
 
                 <br>
 
                 <div class="form-group">
-                    <label for="img"> Imagen Perfil </label>
+                    <label id="titulocampo" for="titulo"> Titulo / Profesion</label>
+                    <br>
+                    <input type="text" class="form-control" id="titulo" name="titulo" [(ngModel)]="persona.titulo" required>
+                </div>
+
+                <br>
+
+                <div class="form-group">
+                    <label id="titulocampo" for="provincia"> Provincia (Pais) </label>
+                    <br>
+                    <input type="text" class="form-control" id="provincia" name="provincia" [(ngModel)]="persona.provincia" required>
+                </div>
+
+                <br>
+
+                <div class="form-group">
+                    <label id="titulocampo" for="img"> Imagen Perfil </label>
+                    <br>
                     <input type="file" class="form-control" id="img" name="img" [(ngModel)]="persona.img" (change)="uploadImage($event)" accept=".jpg, .jpeg, .png">
                 </div>
 
                 <br>
                 
-                <button class="btn btn-outline-light"> Editar Persona</button>
+                <button class="btn btn-outline-light boton"> Actualizar Persona</button>
 
             </form>
         </div>

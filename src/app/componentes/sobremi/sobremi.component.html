@@ -2,31 +2,35 @@
         
     <div id="info">
 
-        <div>
-            <button type="button" class="btn btn-outline-light" routerLink="/editsobremi/1" *ngIf="isLogged">
-                Editar Persona
-            </button>
-        </div>
-
         <div id="info-img">
             <img class="profile-image" src={{persona.img}}>      
         </div>
 
-        <div id="info-data" class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-            <h1> {{persona.nombre}} {{persona.apellido}}</h1>
-            <div id="info-titulo"> Desarrollador Full Stack Developer Jr.</div>
-            <div id="info-contacto" style="display: block;">
-            <span> Tucuman (Argentina) </span>
-            </div>
+        
+        <div>
+            <div id="info-data" class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <h1> {{persona.nombre}} {{persona.apellido}}</h1>
+                <div id="info-titulo"> {{persona.titulo}}</div>
+                <div id="info-contacto" style="display: block;">
+                <span> {{persona.provincia}}</span>
+                </div>
 
-        </div>
+            </div> 
 
-        <div id="sobre-mi" class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-            <h1 style="text-align:center;">Sobre Mi</h1>
-            
-            <p>{{persona.descripcion}}</p>       
+            <div id="sobre-mi" class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
 
-       </div>  
+                
+                <button type="button" class="btn btn-outline-light" routerLink="/editsobremi/1" *ngIf="isLogged" id="boton">
+                Editar Persona
+                </button>
+                
+                <h1 style="text-align:center;" >Sobre Mi</h1>
+                
+                <p>{{persona.descripcion}}</p>       
+
+        </div> 
+       
+    </div>
 
     </div>
 

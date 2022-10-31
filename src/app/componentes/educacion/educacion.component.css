@@ -17,17 +17,9 @@
     border: 5px inset #8a72d0;
 }
 
-#Nivel{
-    color: #8a72d0;
-    padding-top: 10px;
-}
-
-#Institucion{
-    color: #c994bc;
-}
-
-#Periodo{
+#texto{
     color: #d9d6d5;
+    font-size: 20px;
 }
 
 .educacion-block{

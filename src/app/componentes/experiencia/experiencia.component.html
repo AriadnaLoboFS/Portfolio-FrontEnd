@@ -5,15 +5,15 @@
 
         <div>
             <button type="button" class="btn btn-outline-light" routerLink="/nuevaexp" *ngIf="isLogged">
-                Nueva Experiencia
+                Agregar Experiencia
             </button>
         </div>
 
         <table class="table">
             <tbody>
-                <tr id="subtitulos" *ngFor="let Experiencia of expe">
-                    <td>{{Experiencia.nombreE}}</td>
-                    <td>{{Experiencia.descripcionE}}</td>
+                <tr *ngFor="let Experiencia of expe">
+                    <td id="puesto">{{Experiencia.nombreE}}</td>
+                    <td id="tareas">{{Experiencia.descripcionE}}</td>
                     <td *ngIf="isLogged"><button type="button" class="btn btn-outline-light" routerLink="/editexp/{{Experiencia.id}}"> <i
                                 class="bi bi-pencil-square"></i>Editar </button> </td>
                     <td *ngIf="isLogged"><button type="button" class="btn btn-outline-light" (click)="delete(Experiencia.id)"> <i class="bi bi-trash3"></i>Borrar</button> </td>
