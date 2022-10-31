@@ -2,7 +2,7 @@
 
 ## login - probar con usuario: admin , contraseña: admin, o con usuario:admin, contraseña admin.
 
-
+## Consegui una amiga me preste su compu para subir el proyecto en firebase, ya no llegue a subir el tema de las imagenes pero si la comprendo a la metodologia. 
 
 # PortfolioAriadna
 
