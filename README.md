@@ -1,6 +1,6 @@
 ## Notas del Autor: Disculpen si deje las imagenes de los proyectos estaticas, no tengo un sistema operativo de Window actualizado y no podía emplear Firebase cli, me pedia sistema operativo window 8 y tengo el 7. Hice un poco del maquetado de lo que hubiera sido la sección sobre mi con el cambio de imagen de perfil y deje imagenes estaticas de proyectos.  
 
-## login - probar con usuario: admin , contraseña: admin, o con usuario:admin, contraseña admin.
+## login - probar con usuario: admin , contraseña: admin, o con usuario: user, contraseña user.
 
 ## Consegui una amiga me preste su compu para subir el proyecto en firebase, ya no llegue a subir el tema de las imagenes pero si la comprendo a la metodologia. 
 
