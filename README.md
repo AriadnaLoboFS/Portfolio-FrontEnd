@@ -1,6 +1,6 @@
 ## Notas del Autor: Disculpen si deje las imagenes de los proyectos estaticas, por cuestiones de tiempo lo tuve que dejar asi, pero entiendo que sigue la misma metodologia que la foto de perfil.
 
-## login - probar con usuario: admin , contraseña: admin, o con usuario:admin, contraseña admin.
+## login - probar con usuario: admin , contraseña: admin ,en este cargue información y es con el que más practique al tener más accesos, o pueden probar con este otro usuario: user, contraseña user tiene algunos accesos limitados.
 
 # PortfolioAriadna
 
