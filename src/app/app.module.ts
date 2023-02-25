@@ -26,6 +26,9 @@ import { NewSkillComponent } from './componentes/skills/new-skill.component';
 import { EditsobremiComponent } from './componentes/sobremi/editsobremi.component';
 import { NewproyectoComponent } from './componentes/proyectos/newproyecto.component';
 import { EditproyectoComponent } from './componentes/proyectos/editproyecto.component';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideStorage,getStorage } from '@angular/fire/storage';
 
 @NgModule({
   declarations: [
@@ -55,7 +58,9 @@ import { EditproyectoComponent } from './componentes/proyectos/editproyecto.comp
     AppRoutingModule,
     NgCircleProgressModule.forRoot({}),
     HttpClientModule,
-    FormsModule, 
+    FormsModule,
+    provideFirebaseApp(() => initializeApp(environment.firebase)),
+    provideStorage(() => getStorage()), 
   ],
   providers: [
     interceptorProvider,

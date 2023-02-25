@@ -51,6 +51,10 @@
                     <input type="file" class="form-control" id="img" name="img" [(ngModel)]="persona.img" (change)="uploadImage($event)" accept=".jpg, .jpeg, .png">
                 </div>
 
+                <div class="imagen">
+                    <img [src]="imageService.url" width="200x">
+                </div>
+
                 <br>
                 
                 <button class="btn btn-outline-light boton"> Actualizar Persona</button>

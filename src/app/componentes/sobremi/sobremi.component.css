@@ -1,10 +1,10 @@
 .profile-image{
-    width: 10%;
+    width: 12%;
     position: absolute;
     border-radius: 100%;
     box-shadow: 3px 5px #d9d6d5;
-    bottom: 50px;
-    left: 360px;
+    top: 650px;
+    left: 550px;
 }
 
 #info-img{
@@ -54,6 +54,6 @@
 }
 
 #boton{
-    margin-left: 500px;
+    margin-left: 83%;
 }
 

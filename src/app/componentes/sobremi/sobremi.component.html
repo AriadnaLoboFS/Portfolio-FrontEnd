@@ -3,7 +3,7 @@
     <div id="info">
 
         <div id="info-img">
-            <img class="profile-image" src= "/src/assets/Imagenes/81720624_2526531294062527_8376430157103104000_o.jpg">  <!-- {{persona.img}} -->      
+            <img class="profile-image" src= "{{persona.img}}">
         </div>
 
         
@@ -19,10 +19,11 @@
 
             <div id="sobre-mi" class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
 
-                
                 <button type="button" class="btn btn-outline-light" routerLink="/editsobremi/1" *ngIf="isLogged" id="boton">
                 Editar Persona
                 </button>
+
+                <br>
                 
                 <h1 style="text-align:center;" >Sobre Mi</h1>
                 

@@ -1,8 +1,6 @@
-## Notas del Autor: Disculpen si deje las imagenes de los proyectos estaticas, no tengo un sistema operativo de Window actualizado y no podía emplear Firebase cli, me pedia sistema operativo window 8 y tengo el 7. Hice un poco del maquetado de lo que hubiera sido la sección sobre mi con el cambio de imagen de perfil y deje imagenes estaticas de proyectos.  
+## Notas del Autor: Disculpen si deje las imagenes de los proyectos estaticas, por cuestiones de tiempo lo tuve que dejar asi, pero entiendo que sigue la misma metodologia que la foto de perfil.
 
 ## login - probar con usuario: admin , contraseña: admin, o con usuario:admin, contraseña admin.
-
-## Consegui una amiga me preste su compu para subir el proyecto en firebase, ya no llegue a subir el tema de las imagenes pero si la comprendo a la metodologia. 
 
 # PortfolioAriadna
 
